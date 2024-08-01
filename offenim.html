@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      margin: 10px;
+      float: left;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .box:nth-child(2n) {
+      margin-top: 50px;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+    }
+
+    .box:nth-child(3n) {
+      margin-left: 50px;
+      box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.9);
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</body>
+</html>
